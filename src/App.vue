@@ -14,13 +14,33 @@
   </main>
 </template>
 
+<style>
+
+  :root {
+    --hovered-color: #C029E1;
+    --active-color: #40E4E8;
+    --text-color: #c3bebe;
+    --transition-speed: 0.3s;
+    --title-font-size: 3em;
+    --font-size: 1.5em;
+    user-select: none;
+  }
+
+  .center {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+
+</style>
+
 <style scoped>
 
   main {
-    padding: 2rem;
-    min-height: calc(100vh - 8rem);
-
-
+    height: calc(100vh - 5rem);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
   }
 
   .page-enter-active,

@@ -13,7 +13,7 @@ const toggleMenu = () => {
   <header class="header">
     <nav class="nav-desktop">
       <router-link to="/">
-            <img src="/logo.svg" class="logo" alt="logo" />
+            <img src="../assets/logo.svg" class="logo" alt="logo" />
       </router-link>
       <div class="nav-links">
         <router-link to="/" class="nav-link">Home</router-link>
@@ -39,18 +39,7 @@ const toggleMenu = () => {
 
 </template>
 
-<style lang="scss">
-:root {
-//   --primary-color: #4f46e5; /* Indigo */
-  --hovered-color: #C029E1; /* Darker Indigo */
-  --active-color: #40E4E8; /* Green */
-  --text-color: #c3bebe; /* Dark Gray */
-//   --bg-color: rgba(15, 23, 42, 0.95); /* Deep Purple */
-//   --section-padding: 4rem 0;
-  --transition-speed: 0.3s;
-//   --border-radius: 8px;
-//   --box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-}
+<style lang="scss" scoped>
 
 .header {
   position: fixed;
@@ -172,28 +161,6 @@ const toggleMenu = () => {
       transform: translateX(5px);
     }
   }
-}
-
-main {
-  padding: 2rem;
-  min-height: calc(100vh - 8rem);
-
-
-}
-
-.page-enter-active,
-.page-leave-active {
-  transition: opacity 0.3s, transform 0.3s;
-}
-
-.page-enter-from {
-  opacity: 0;
-  transform: translateY(20px);
-}
-
-.page-leave-to {
-  opacity: 0;
-  transform: translateY(-20px);
 }
 
 @keyframes spin {
