@@ -4,7 +4,7 @@
         description: [`I am JavaScript developer with experience in TypeScript, vanilla JS, Vue and modern web technologies, 
                         holding engineering degree and studied in Moscow Technological University 'STANKIN' and Middlesex University Dubai.
                         With 3.5 years of team experience, I specialize in HTML5, CSS3, JavaScript (ES6, DOM, BOM, AJAX), TypeScript,
-                        webpack, Express, websockets, Python, Flask, Django, SQL, MySQL, SQLite, Postgres, adaptive and cross-browser, layouts, APIs, Flex, 
+                        webpack, Express, websockets, Python, Flask, Django, SQL, MySQL, SQLite, Postgres, adaptive and cross-browser layouts, APIs, Flex, 
                         Grid, Sass, GitHub, Git, Photoshop, Figma, Canvas, Polymer and Vue.js (Options API, Composition API, Vue Router, Vuex, 
                         Vite, Vue CLI). I design highloaded services and optimize algoritms to improve user experience, understand SEO 
                         and REST API, and convert designs from Figma or Photoshop into code. Committed to creating beautiful, responsive, 

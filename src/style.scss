@@ -5,12 +5,30 @@
 
   color-scheme: light dark;
   background: #08162b;
-background: linear-gradient(135deg, rgba(8, 22, 43, 1) 0%, rgba(14, 44, 82, 1) 76%);
+background: linear-gradient(135deg, rgba(8, 22, 43, 1) 0%, #0e2c52 76%);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #0e2c52 #bbc2e4;
+}
+
+*::-webkit-scrollbar {
+  height: 12px;
+  width: 12px;
+}
+*::-webkit-scrollbar-track {
+  background: #bbc2e4;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #0e2c52;
+  border-radius: 5px;
+  border: 3px solid #bbc2e4;
 }
 
 body {
